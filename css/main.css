@@ -100,7 +100,7 @@ footer {
 /*--------------- Header styles ----------------*/
 
 header {
-
+     padding: 15px 0;
 }
 
 header .content-wrapper {
@@ -108,10 +108,13 @@ header .content-wrapper {
      justify-content: center;
      align-items: center;
      flex-flow: row wrap;
+     margin: 0;
 }
 
 .header-divider {
-
+     width: 100%;
+     height: 1px;
+     margin: 10px 0 20px 0;
 }
 
 header nav {
@@ -119,22 +122,37 @@ header nav {
      justify-content: space-around;
      align-items: center;
      flex-flow: row wrap;
+     width: 60%;
 }
 
 header nav ul {
      display: flex;
      justify-content: space-around;
      align-items: center;
+     width: 100%;
+}
+
+header nav ul li {
+
 }
 
 /*--------------- Footer styles ----------------*/
 
-footer .content-wrapper {
+footer {
+     flex-direction: column;
+}
 
+footer .content-wrapper {
+     width: 55%;
+     margin: 50px 0;
+}
+
+footer p {
+     margin: 0;
 }
 
 footer .contact {
-
+     margin-bottom: 45px;
 }
 
 footer .social {
@@ -149,8 +167,14 @@ footer .social-icons {
      align-items: center;
 }
 
-footer .copyright {
+footer .social-icons p {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
 
+footer .copyright {
+     padding: 7px 0;
 }
 
 /*--------------- Home main styles ----------------*/
@@ -164,7 +188,11 @@ footer .copyright {
 }
 
 .hero-area .content-wrapper {
+     margin: 20px 0;
+}
 
+.hero-area h1 {
+     padding: 55px 23px;
 }
 
 /*--------------- Aside newsletter styles ----------------*/
@@ -177,7 +205,7 @@ aside {
 }
 
 aside .content-wrapper {
-
+     margin: 30px 20px;
 }
 
 .form-description {
@@ -185,7 +213,7 @@ aside .content-wrapper {
 }
 
 .form {
-
+     margin-top: 35px;
 }
 
 /*--------------- Features styles ----------------*/
@@ -203,6 +231,7 @@ aside .content-wrapper {
 
 .features h2 {
      text-align: left;
+     margin: 50px 20px;
 }
 
 .features .features-items {
@@ -212,12 +241,20 @@ aside .content-wrapper {
      flex-flow: row wrap;
 }
 
-.fontawesome-icons {
+.features p {
+     margin: 0;
+}
 
+.features article {
+     width: 55%;
+     margin: 25px 0;
+}
+
+.fontawesome-icons {
 }
 
 .features-itmes-description {
-
+     margin-top: 40px;
 }
 
 /*--------------- Reviews styles ----------------*/
@@ -230,11 +267,16 @@ aside .content-wrapper {
 }
 
 .reviews .content-wrapper {
-
+     margin: 50px 20px;
 }
 
-.reviews .lacrue {
+.reviews h2 {
+     margin-bottom: : 25px;
+}
 
+.reviews h3 {
+     width: 48%;
+     margin: 20px 0;
 }
 
 /*--------------- About main styles ----------------*/
@@ -248,11 +290,11 @@ aside .content-wrapper {
 }
 
 .mission .content-wrapper {
-
+     margin: 50px 20px;
 }
 
-.mission-content {
-
+.mission-content p {
+     margin-top: 20px;
 }
 
 /*--------------- About map styles ----------------*/
@@ -271,27 +313,40 @@ aside .content-wrapper {
 }
 
 .contact-section .content-wrapper {
-
+     margin: 50px 20px;
 }
 
-.contact-content {
+.contact-content p {
+     margin: 0;
+}
 
+.contact-content h4 {
+     margin: 15px 0;
 }
 
 /*--------------- FAQ main styles ----------------*/
 
-.faq {
+.questions {
      display: flex;
      justify-content: center;
      align-items: center;
      flex-flow: row wrap;
 }
 
-.faq .content-wrapper {
+.questions .content-wrapper {
      display: flex;
      justify-content: center;
      align-items: center;
      flex-flow: row wrap;
+     margin: 50px 20px;
+}
+
+.questions h2 {
+     margin-bottom: 20px;
+}
+
+.questions-content div {
+     margin: 22px 0;
 }
 
 /* ==========================================================================
