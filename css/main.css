@@ -89,60 +89,61 @@ textarea {
 
    /* General Styles */
 
-   html {
-        font-size: 16px;
-   }
+html {
+     font-size: 16px;
+     background-color: #202322;
+}
 
-   body {
-        font-family: 'Open Sans', sans-serif;
-        font-size: 1em;
-        text-align: left;
-   }
+body {
+     font-family: 'Open Sans', sans-serif;
+     font-size: 1em;
+     text-align: left;
+     color: #e2e3ed;
+}
 
-   ul,
-   ol {
-        text-decoration: none;
-        list-style-type: none;
-        text-transform: uppercase;
-   }
+ul,
+ol {
+     text-decoration: none;
+     list-style-type: none;
+     text-transform: uppercase;
+}
 
-   a {
-        color: #e2e3ed;
-        text-decoration: none;
-   }
+a {
+     color: #e2e3ed;
+     text-decoration: none;
+}
 
-   h2 {
-        font-family: 'Poppins', sans-serif;
-        font-size: 1.875em;
-   }
+h1 {
+     font-size: 2.25em;
+}
 
-   h3,
-   h4 {
-        font-family: 'Poppins', sans-serif;
-        font-size: 1.125em;
-   }
+h2 {
+     font-family: 'Poppins', sans-serif;
+     font-size: 1.875em;
+     font-weight: 500;
+}
 
-   p {
-        font-size:  .875em;
-        line-height: 1.125em;
-   }
+h3,
+h4 {
+     font-family: 'Poppins', sans-serif;
+     font-size: 1.125em;
+     font-weight: 500;
+     margin: 20px 0;
+}
 
-   img {
+p {
+     font-size:  .875em;
+     line-height: 1.125em;
+}
 
-   }
+address {
+     font-style: normal;
+}
 
-   figure {
-
-   }
-
-   address {
-        font-style: normal;
-   }
-
-   .content-wrapper {
-        width: 90%;
-        margin: 50px 0;
-   }
+.content-wrapper {
+     width: 90%;
+     margin: 50px 0;
+}
 
 /*--------------- Base header - footer styles ----------------*/
 
@@ -168,10 +169,16 @@ header .content-wrapper {
      margin: 0;
 }
 
+header img {
+     width: 60%;
+     margin: 0 20%;
+}
+
 .header-divider {
      width: 100%;
      height: 1px;
      margin: 10px 0 20px 0;
+     background-color: #3a3a3a;
 }
 
 header nav {
@@ -189,10 +196,6 @@ header nav ul {
      width: 100%;
 }
 
-header nav ul li {
-
-}
-
 /*--------------- Footer styles ----------------*/
 
 footer {
@@ -208,7 +211,8 @@ footer p {
      margin: 0;
 }
 
-footer .contact {
+footer address {
+     text-align: center;
      margin-bottom: 45px;
 }
 
@@ -239,9 +243,12 @@ footer .copyright {
 
 .hero-area {
      display: flex;
-     justify-content: center;
-     align-items: center;
+     justify-content: flex-start;
+     align-items: flex-start;
      flex-flow: row wrap;
+     background: url('../img/bridge.jpg');
+     background-size: cover;
+     height: 500px;
 }
 
 .hero-area .content-wrapper {
@@ -249,7 +256,7 @@ footer .copyright {
 }
 
 .hero-area h1 {
-     padding: 55px 23px;
+     padding: 35px 23px;
 }
 
 /*--------------- Aside newsletter styles ----------------*/
@@ -259,18 +266,37 @@ aside {
      justify-content: center;
      align-items: center;
      flex-flow: row wrap;
+     background-color: #527158;
 }
 
 aside .content-wrapper {
      margin: 30px 20px;
 }
 
-.form-description {
-
+aside .form {
+     margin-top: 30px;
 }
 
-.form {
-     margin-top: 35px;
+input[type=text] {
+     box-sizing: border-box;
+     width: 100%;
+     color: #2a423a;
+     font-style: italic;
+     padding: 1em;
+}
+
+input[type=button] {
+     width: 100%;
+     padding: 20px 0;
+     margin-top: 20px;
+     background-color: #2a423a;
+     font-family: 'Poppins', Helvetica, Arial, sans-serif;
+     font-weight: 500;
+     font-size: 1.125em;
+     color: #e2e3ed;
+     border: none;
+     text-align: center;
+     text-transform: uppercase;
 }
 
 /*--------------- Features styles ----------------*/
@@ -280,6 +306,8 @@ aside .content-wrapper {
      justify-content: center;
      align-items: center;
      flex-flow: row wrap;
+     background-image: url('../img/dark-camp.jpg');
+     background-size: cover;
 }
 
 .features .content-wrapper {
@@ -321,6 +349,7 @@ aside .content-wrapper {
      justify-content: center;
      align-items: center;
      flex-flow: row wrap;
+     background-color: #2a423a;
 }
 
 .reviews .content-wrapper {
@@ -344,6 +373,7 @@ aside .content-wrapper {
      justify-content: center;
      align-items: center;
      flex-flow: row wrap;
+     background-color: #527158;
 }
 
 .mission .content-wrapper {
@@ -367,6 +397,7 @@ aside .content-wrapper {
      justify-content: center;
      align-items: center;
      flex-flow: row wrap;
+     background-color: #2a423a;
 }
 
 .contact-section .content-wrapper {
@@ -388,6 +419,7 @@ aside .content-wrapper {
      justify-content: center;
      align-items: center;
      flex-flow: row wrap;
+     background-color: #527158;
 }
 
 .questions .content-wrapper {
