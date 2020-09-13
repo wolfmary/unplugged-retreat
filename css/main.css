@@ -105,7 +105,6 @@ ul,
 ol {
      text-decoration: none;
      list-style-type: none;
-     text-transform: uppercase;
 }
 
 a {
@@ -140,6 +139,10 @@ address {
      font-style: normal;
 }
 
+img {
+     width: 100%;
+}
+
 .content-wrapper {
      width: 90%;
      margin: 50px 0;
@@ -171,7 +174,6 @@ header .content-wrapper {
 
 header img {
      width: 60%;
-     margin: 0 20%;
 }
 
 .header-divider {
@@ -187,6 +189,9 @@ header nav {
      align-items: center;
      flex-flow: row wrap;
      width: 60%;
+     text-transform: uppercase;
+     font-size: 1.125em;
+     font-weight: 700;
 }
 
 header nav ul {
@@ -199,6 +204,7 @@ header nav ul {
 /*--------------- Footer styles ----------------*/
 
 footer {
+     text-align: center;
      flex-direction: column;
 }
 
@@ -246,7 +252,7 @@ footer .copyright {
      justify-content: flex-start;
      align-items: flex-start;
      flex-flow: row wrap;
-     background: url('../img/bridge.jpg');
+     background: url('../img/bridge.jpg') center no-repeat;
      background-size: cover;
      height: 500px;
 }
