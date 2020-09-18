@@ -86,7 +86,7 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
+   /*Mobile Styles*/
    /* General Styles */
 
 html {
@@ -378,8 +378,20 @@ input[type=button] {
 
 /*--------------- About map styles ----------------*/
 
-.map .content-wrapper {
+.map figure {
+     position: relative;
+     padding-bottom: 125%;
+     overflow: hidden;
+     height: 0;
+     width: 100%;
+}
 
+.map iframe {
+     position: absolute;
+     top: 0;
+     left: 0;
+     height: 100%;
+     width: 100%;
 }
 
 /*--------------- About contact styles ----------------*/
