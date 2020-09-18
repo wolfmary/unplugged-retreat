@@ -327,11 +327,16 @@ input[type=button] {
 }
 
 .features article {
-     width: 55%;
+     width: 63%;
      margin: 25px 0;
 }
 
 .fontawesome-icons {
+}
+
+.features i {
+     font-size: 3.75em;
+     margin-bottom: 40px;
 }
 
 .features-items-description {
@@ -635,6 +640,7 @@ FAQ main styles M
           display: flex;
           justify-content: center;
           align-items: center;
+          flex-flow: column wrap;
           flex-basis: 50%;
           margin: 40px 0;
      }
