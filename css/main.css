@@ -234,13 +234,13 @@ footer address {
 
 footer .social-icons {
      display: flex;
-     justify-content: space-around;
+     justify-content: space-between;
      align-items: center;
 }
 
 footer .social-icons p {
      display: flex;
-     justify-content: center;
+     justify-content: space-between;
      align-items: center;
 }
 
@@ -684,12 +684,12 @@ FAQ main styles M
           align-items: center;
      }
 
-     footer .contact {
-
-     }
-
      footer .contact p {
           line-height: 1.285;
+     }
+
+     footer .social span {
+          padding: 0 20px;
      }
 
      footer .copyright {
@@ -724,10 +724,9 @@ FAQ main styles M
           width: 78%;
      }
 
-     .contact-content {
+     .contact-section .contact-content {
           display: flex;
           justify-content: space-between;
-          align-items: flex-start;
      }
 
 /* ==================================================
@@ -863,7 +862,7 @@ FAQ main styles M
 
      footer .footer-content {
           display: flex;
-          justify-content: space-around;
+          justify-content: space-between;
           align-items: center;
      }
 
