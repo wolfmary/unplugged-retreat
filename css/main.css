@@ -674,7 +674,6 @@ FAQ main styles M
      aside .content-wrapper {
           display: flex;
           justify-content: space-between;
-          flex-fow: row wrap;
           margin: 50px 0;
      }
 
@@ -736,7 +735,6 @@ FAQ main styles M
      .reviews article {
           display: flex;
           justify-content: space-between;
-          align-items: flex-start;
      }
 
      .reviews h2 {
@@ -745,15 +743,19 @@ FAQ main styles M
 
      .reviews article div {
         width: 48%;
+        align-items: flex-start;
      }
 
      .reviews article figure {
           width: 50%;
+         align-items: flex-start;
+         overflow: hidden;
      }
 
      .reviews h3 {
           width: 75%;
           margin: 0;
+          padding-top: 0;
      }
 
      /*Footer styles*/
@@ -966,7 +968,7 @@ FAQ main styles M
 
      .reviews h2{
           width: 75%;
-          margin: 0 0 88px 0;
+          margin: 0 0 90px 0;
      }
 
      .reviews article div,
