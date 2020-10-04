@@ -989,9 +989,6 @@ FAQ main styles M
      }
 
      footer .footer-content {
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
           margin: 0 60px;
      }
 
